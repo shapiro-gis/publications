@@ -1,0 +1,158 @@
+#sidebarA{
+    color: white;
+    background-color: #4d3e20 ;
+}
+
+  
+
+#filterResults{
+    font-size: 12px;
+    color: white;
+    background-color:#eabe63;
+    /*background-color: #448EE4; */
+
+}
+   /* .theme{
+    background-color: #402e09; 
+background-color: #2A395F; 
+}*/
+
+.select{
+    font-style: italic;
+    opacity: .7;
+}
+
+.mapboxgl-ctrl-geocoder--input {
+    padding: 6px 30px;
+    margin-left: 5px;
+}
+
+.listings .item {
+    font-size: 14px;
+    word-wrap: break-word;
+    text-decoration: none;
+    border-bottom: solid rgb(34, 33, 33, .3) 1px;
+}
+
+.listings .item:last-child {
+    border-bottom: none;
+}
+
+.listings .item .title {
+    display: inline-block;
+    width: 100%;
+    /* color: #2A395F; */
+    color: #4f2e1c;
+    font-weight: 800;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    border-left: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: #4f2e1c;
+}
+
+.clearfix {
+    display: block;
+}
+
+.clearfix::after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.mapboxgl-popup-content {
+    font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+    text-align: center;
+    padding: 5;
+    background-color: #402e09;
+    width: 200px;
+  }
+
+.mapboxgl-popup-close-button {
+    display: none;
+  }
+
+.mapboxgl-popup-content h3 {
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    display: block;
+
+  }
+.btn{
+    background-color: #eabe63;
+}
+
+.btn:hover{
+    background:  #4f2e1c;
+}
+.checkbox{
+    background:  #4f2e1c;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  #animal-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #animal-icons-container img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #animal-icons-container img:hover {
+    transform: scale(1.2);
+  }
+
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .checkbox-label .checkbox-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  /* Styling for when the checkbox is checked */
+  .filter-option:checked + .checkbox-label .checkbox-image {
+    background-color: #ccc;
+  }
+
+  .selected img {
+    filter: invert(100%);
+  }
+
+
+
+
